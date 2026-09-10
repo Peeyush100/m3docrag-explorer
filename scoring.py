@@ -14,7 +14,8 @@ from typing import List, Set, Tuple, Union
 
 import numpy as np
 from scipy.optimize import linear_sum_assignment
-from word2number.w2n import word_to_num
+
+from w2n import word_to_num
 
 MULTI_HOP_QUESTION_TYPES = [
     # text as second hop
