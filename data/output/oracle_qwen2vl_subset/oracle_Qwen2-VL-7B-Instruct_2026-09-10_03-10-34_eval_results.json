@@ -1,0 +1,111 @@
+{
+    "overall": {
+        "list_em": 44.0,
+        "list_f1": 50.13333333333333
+    },
+    "modalities": {
+        "image": {
+            "list_em": 30.303030303030305,
+            "list_f1": 35.72727272727273
+        },
+        "table": {
+            "list_em": 36.36363636363637,
+            "list_f1": 44.36363636363636
+        },
+        "text": {
+            "list_em": 58.06451612903226,
+            "list_f1": 62.91935483870969
+        }
+    },
+    "hop_types": {
+        "Multi-hop": {
+            "count": 62,
+            "list_em": 40.32258064516129,
+            "list_f1": 43.75806451612903
+        },
+        "Single-hop": {
+            "count": 88,
+            "list_em": 46.590909090909086,
+            "list_f1": 54.625
+        }
+    },
+    "q_types": {
+        "Compare(Compose(TableQ,ImageQ),Compose(TableQ,TextQ))": {
+            "count": 2,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compare(Compose(TableQ,ImageQ),TableQ)": {
+            "count": 9,
+            "list_em": 66.66666666666666,
+            "list_f1": 69.88888888888889
+        },
+        "Compare(TableQ,Compose(TableQ,TextQ))": {
+            "count": 5,
+            "list_em": 60.0,
+            "list_f1": 60.0
+        },
+        "Compose(ImageQ,TableQ)": {
+            "count": 8,
+            "list_em": 37.5,
+            "list_f1": 37.5
+        },
+        "Compose(TableQ,ImageListQ)": {
+            "count": 9,
+            "list_em": 11.11111111111111,
+            "list_f1": 11.11111111111111
+        },
+        "Compose(TableQ,TextQ)": {
+            "count": 6,
+            "list_em": 50.0,
+            "list_f1": 50.0
+        },
+        "Compose(TextQ,ImageListQ)": {
+            "count": 3,
+            "list_em": 0.0,
+            "list_f1": 13.333333333333334
+        },
+        "Compose(TextQ,TableQ)": {
+            "count": 17,
+            "list_em": 41.17647058823529,
+            "list_f1": 49.64705882352942
+        },
+        "ImageListQ": {
+            "count": 10,
+            "list_em": 40.0,
+            "list_f1": 57.9
+        },
+        "ImageQ": {
+            "count": 15,
+            "list_em": 20.0,
+            "list_f1": 20.0
+        },
+        "Intersect(ImageListQ,TableQ)": {
+            "count": 2,
+            "list_em": 50.0,
+            "list_f1": 50.0
+        },
+        "Intersect(TableQ,TextQ)": {
+            "count": 1,
+            "list_em": 100.0,
+            "list_f1": 100.0
+        },
+        "TableQ": {
+            "count": 23,
+            "list_em": 30.434782608695656,
+            "list_f1": 48.30434782608695
+        },
+        "TextQ": {
+            "count": 40,
+            "list_em": 67.5,
+            "list_f1": 70.42500000000001
+        }
+    },
+    "average_recall_at_k": {
+        "1": 0.7081746031746031,
+        "2": 0.7103968253968254,
+        "4": 0.7292857142857143,
+        "5": 0.7426190476190477,
+        "10": 0.848015873015873
+    }
+}

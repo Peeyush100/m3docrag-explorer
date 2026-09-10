@@ -1,0 +1,111 @@
+{
+    "overall": {
+        "list_em": 0.0,
+        "list_f1": 0.0
+    },
+    "modalities": {
+        "image": {
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "table": {
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "text": {
+            "list_em": 0.0,
+            "list_f1": 0.0
+        }
+    },
+    "hop_types": {
+        "Multi-hop": {
+            "count": 62,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Single-hop": {
+            "count": 88,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        }
+    },
+    "q_types": {
+        "Compare(Compose(TableQ,ImageQ),Compose(TableQ,TextQ))": {
+            "count": 2,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compare(Compose(TableQ,ImageQ),TableQ)": {
+            "count": 9,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compare(TableQ,Compose(TableQ,TextQ))": {
+            "count": 5,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compose(ImageQ,TableQ)": {
+            "count": 8,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compose(TableQ,ImageListQ)": {
+            "count": 9,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compose(TableQ,TextQ)": {
+            "count": 6,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compose(TextQ,ImageListQ)": {
+            "count": 3,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compose(TextQ,TableQ)": {
+            "count": 17,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "ImageListQ": {
+            "count": 10,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "ImageQ": {
+            "count": 15,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Intersect(ImageListQ,TableQ)": {
+            "count": 2,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Intersect(TableQ,TextQ)": {
+            "count": 1,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "TableQ": {
+            "count": 23,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "TextQ": {
+            "count": 40,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        }
+    },
+    "average_recall_at_k": {
+        "1": 0.6648412698412698,
+        "2": 0.7548412698412698,
+        "4": 0.8569047619047618,
+        "5": 0.8835714285714286,
+        "10": 0.9202380952380952
+    }
+}

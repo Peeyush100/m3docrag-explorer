@@ -1,0 +1,121 @@
+{
+    "overall": {
+        "list_em": 26.587464154035235,
+        "list_f1": 30.895534616960262
+    },
+    "modalities": {
+        "image": {
+            "list_em": 24.953095684803,
+            "list_f1": 28.166979362101312
+        },
+        "table": {
+            "list_em": 20.46511627906977,
+            "list_f1": 23.724418604651163
+        },
+        "text": {
+            "list_em": 32.44274809160305,
+            "list_f1": 38.16793893129771
+        }
+    },
+    "hop_types": {
+        "Multi-hop": {
+            "count": 980,
+            "list_em": 20.918367346938776,
+            "list_f1": 23.599999999999998
+        },
+        "Single-hop": {
+            "count": 1461,
+            "list_em": 30.390143737166326,
+            "list_f1": 35.78918548939083
+        }
+    },
+    "q_types": {
+        "Compare(Compose(TableQ,ImageQ),Compose(TableQ,TextQ))": {
+            "count": 15,
+            "list_em": 0.0,
+            "list_f1": 0.6666666666666667
+        },
+        "Compare(Compose(TableQ,ImageQ),TableQ)": {
+            "count": 104,
+            "list_em": 41.34615384615385,
+            "list_f1": 43.82692307692307
+        },
+        "Compare(TableQ,Compose(TableQ,TextQ))": {
+            "count": 64,
+            "list_em": 51.5625,
+            "list_f1": 54.90625
+        },
+        "Compose(ImageQ,TableQ)": {
+            "count": 142,
+            "list_em": 24.647887323943664,
+            "list_f1": 25.119718309859156
+        },
+        "Compose(ImageQ,TextQ)": {
+            "count": 20,
+            "list_em": 35.0,
+            "list_f1": 35.0
+        },
+        "Compose(TableQ,ImageListQ)": {
+            "count": 195,
+            "list_em": 9.230769230769232,
+            "list_f1": 11.179487179487179
+        },
+        "Compose(TableQ,TextQ)": {
+            "count": 82,
+            "list_em": 12.195121951219512,
+            "list_f1": 13.060975609756099
+        },
+        "Compose(TextQ,ImageListQ)": {
+            "count": 46,
+            "list_em": 15.217391304347828,
+            "list_f1": 22.23913043478261
+        },
+        "Compose(TextQ,TableQ)": {
+            "count": 216,
+            "list_em": 17.12962962962963,
+            "list_f1": 21.0
+        },
+        "ImageListQ": {
+            "count": 141,
+            "list_em": 9.929078014184398,
+            "list_f1": 18.32624113475177
+        },
+        "ImageQ": {
+            "count": 230,
+            "list_em": 33.47826086956522,
+            "list_f1": 35.48695652173913
+        },
+        "Intersect(ImageListQ,TableQ)": {
+            "count": 44,
+            "list_em": 6.8181818181818175,
+            "list_f1": 12.454545454545455
+        },
+        "Intersect(ImageListQ,TextQ)": {
+            "count": 3,
+            "list_em": 33.33333333333333,
+            "list_f1": 33.33333333333333
+        },
+        "Intersect(TableQ,TextQ)": {
+            "count": 49,
+            "list_em": 22.448979591836736,
+            "list_f1": 26.959183673469383
+        },
+        "TableQ": {
+            "count": 369,
+            "list_em": 27.100271002710024,
+            "list_f1": 30.897018970189706
+        },
+        "TextQ": {
+            "count": 721,
+            "list_em": 35.09015256588072,
+            "list_f1": 41.80443828016644
+        }
+    },
+    "average_recall_at_k": {
+        "1": 0.4804032305261311,
+        "2": 0.4804032305261311,
+        "4": 0.4804032305261311,
+        "5": 0.4804032305261311,
+        "10": 0.4804032305261311
+    }
+}

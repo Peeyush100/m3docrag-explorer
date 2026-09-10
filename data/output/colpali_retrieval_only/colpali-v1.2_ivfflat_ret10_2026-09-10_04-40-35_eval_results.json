@@ -1,0 +1,121 @@
+{
+    "overall": {
+        "list_em": 0.0,
+        "list_f1": 0.0
+    },
+    "modalities": {
+        "image": {
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "table": {
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "text": {
+            "list_em": 0.0,
+            "list_f1": 0.0
+        }
+    },
+    "hop_types": {
+        "Multi-hop": {
+            "count": 980,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Single-hop": {
+            "count": 1461,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        }
+    },
+    "q_types": {
+        "Compare(Compose(TableQ,ImageQ),Compose(TableQ,TextQ))": {
+            "count": 15,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compare(Compose(TableQ,ImageQ),TableQ)": {
+            "count": 104,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compare(TableQ,Compose(TableQ,TextQ))": {
+            "count": 64,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compose(ImageQ,TableQ)": {
+            "count": 142,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compose(ImageQ,TextQ)": {
+            "count": 20,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compose(TableQ,ImageListQ)": {
+            "count": 195,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compose(TableQ,TextQ)": {
+            "count": 82,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compose(TextQ,ImageListQ)": {
+            "count": 46,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Compose(TextQ,TableQ)": {
+            "count": 216,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "ImageListQ": {
+            "count": 141,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "ImageQ": {
+            "count": 230,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Intersect(ImageListQ,TableQ)": {
+            "count": 44,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Intersect(ImageListQ,TextQ)": {
+            "count": 3,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "Intersect(TableQ,TextQ)": {
+            "count": 49,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "TableQ": {
+            "count": 369,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        },
+        "TextQ": {
+            "count": 721,
+            "list_em": 0.0,
+            "list_f1": 0.0
+        }
+    },
+    "average_recall_at_k": {
+        "1": 0.5155054524882466,
+        "2": 0.614856811221006,
+        "4": 0.7059679873588108,
+        "5": 0.7308187510973255,
+        "10": 0.8008008037299315
+    }
+}

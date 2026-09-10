@@ -1,0 +1,1802 @@
+{
+    "f22ab36d3922efe0a0819cbd0e4bba04": {
+        "page_retrieval_results": [
+            [
+                "bcc4f90e9079e031f9bb82424cf09147",
+                1,
+                15.632152557373047
+            ]
+        ],
+        "pred_answer": "Gmina S\u0142upca",
+        "time_retrieval": 0.7189279510639608,
+        "time_qa": 1.4505841536447406
+    },
+    "b221540e314f22570f0b77de1e737cbd": {
+        "page_retrieval_results": [
+            [
+                "4ff77b1e1256f79f20157298fae85819",
+                2,
+                9.677173614501953
+            ]
+        ],
+        "pred_answer": "Christian Dvorak.",
+        "time_retrieval": 2.2799096098169684,
+        "time_qa": 2.8845428177155554
+    },
+    "1fea4834be15fd43f261d6d4e1e3177f": {
+        "page_retrieval_results": [
+            [
+                "409142e6ac609e5ef983f37df2db6141",
+                2,
+                14.916064262390137
+            ]
+        ],
+        "pred_answer": "Phoenix Roadrunners.",
+        "time_retrieval": 3.0299307499080896,
+        "time_qa": 3.1796203842386603
+    },
+    "b0a4a70cbc9c8564b399584bc154caad": {
+        "page_retrieval_results": [
+            [
+                "6678605c214548a9683bfcb502376e7b",
+                7,
+                5.545619010925293
+            ]
+        ],
+        "pred_answer": "horse",
+        "time_retrieval": 0.21483104210346937,
+        "time_qa": 4.503403482027352
+    },
+    "551d3fb9a01ec45e095368187ea3ca88": {
+        "page_retrieval_results": [
+            [
+                "c8b5b8113ca01e62752d7a850ae95861",
+                9,
+                4.460524559020996
+            ]
+        ],
+        "pred_answer": "Sheryll Jeffries.",
+        "time_retrieval": 1.4760639513842762,
+        "time_qa": 2.947355175856501
+    },
+    "6a304cb24a40342a0612036581a9c7d1": {
+        "page_retrieval_results": [
+            [
+                "c22fa469de500495cde9e49c19fafb4e",
+                0,
+                18.111602783203125
+            ]
+        ],
+        "pred_answer": "Yes",
+        "time_retrieval": 2.1949871899560094,
+        "time_qa": 1.822429256979376
+    },
+    "81872a577dc86058c291c520a1bcee47": {
+        "page_retrieval_results": [
+            [
+                "190e6e3b88a9fe640460fb4bd70842fa",
+                0,
+                17.65473175048828
+            ]
+        ],
+        "pred_answer": "Stojnci",
+        "time_retrieval": 3.4076912850141525,
+        "time_qa": 1.5174195459112525
+    },
+    "f8b25e28d3bd7ac17e5ae748deff274b": {
+        "page_retrieval_results": [
+            [
+                "2579f6c9ee34f45246184873d9c4f85f",
+                0,
+                13.544635772705078
+            ]
+        ],
+        "pred_answer": "Lost Quarterfinal, 2-4 (Rockets)",
+        "time_retrieval": 2.5418980359099805,
+        "time_qa": 3.981024820357561
+    },
+    "b9bb7317843e3a053bb101a2db060418": {
+        "page_retrieval_results": [
+            [
+                "4b368a8129069cee2585602334511b11",
+                40,
+                3.996908187866211
+            ]
+        ],
+        "pred_answer": "Israel.",
+        "time_retrieval": 2.626170868985355,
+        "time_qa": 6.800376039929688
+    },
+    "78eab38140bfb9b730f155eb83e18ca8": {
+        "page_retrieval_results": [
+            [
+                "2978cea8aa5dbc1438deef2fa7e76f79",
+                6,
+                8.473320007324219
+            ]
+        ],
+        "pred_answer": "Yes",
+        "time_retrieval": 3.8660888709127903,
+        "time_qa": 4.14844577293843
+    },
+    "d276180f6d6d6166df799edbe1d56a0f": {
+        "page_retrieval_results": [
+            [
+                "75ee527c0ba993a1f8f11fd81c25e6a1",
+                0,
+                8.251298904418945
+            ]
+        ],
+        "pred_answer": "Don Scardino",
+        "time_retrieval": 5.708190621808171,
+        "time_qa": 1.852814830839634
+    },
+    "8898db454c5caa78be31adf9c277a856": {
+        "page_retrieval_results": [
+            [
+                "a6829966713a0ff17747fd677c81ed47",
+                1,
+                10.46235466003418
+            ]
+        ],
+        "pred_answer": "Asia",
+        "time_retrieval": 0.6113528679125011,
+        "time_qa": 2.4895293777808547
+    },
+    "798c37330ee5a8c495ce2987eea1c3ea": {
+        "page_retrieval_results": [
+            [
+                "1d7549881229feb8a1bea89f19a1e9bc",
+                3,
+                7.450957775115967
+            ]
+        ],
+        "pred_answer": "1973",
+        "time_retrieval": 1.0577948410063982,
+        "time_qa": 1.632303398102522
+    },
+    "3dcd697546b59770fe11efc058f75836": {
+        "page_retrieval_results": [
+            [
+                "c45140fb17efcec2e9af22e0cd24cd71",
+                25,
+                10.52973747253418
+            ]
+        ],
+        "pred_answer": "Brad Davis.",
+        "time_retrieval": 4.65074481908232,
+        "time_qa": 4.134017794858664
+    },
+    "9f331cb288808beb4c2ae65023ab2fae": {
+        "page_retrieval_results": [
+            [
+                "7a519bb802d41ef1b76c704bc4b32cd4",
+                0,
+                4.882106781005859
+            ]
+        ],
+        "pred_answer": "No",
+        "time_retrieval": 0.4528150726109743,
+        "time_qa": 3.2224228167906404
+    },
+    "283b8de5d9d5e2da32312964a1306d0a": {
+        "page_retrieval_results": [
+            [
+                "52f8ec3707a689301e09c9722d9b2f5f",
+                0,
+                6.453012943267822
+            ]
+        ],
+        "pred_answer": "The Sugarland Express",
+        "time_retrieval": 3.2503427327610552,
+        "time_qa": 2.01209018798545
+    },
+    "ab5eea80c1c6fe24f5f0f8da8a7e2bd9": {
+        "page_retrieval_results": [
+            [
+                "c0336ea37f3a0c5193a36da510451b7d",
+                0,
+                24.20846939086914
+            ]
+        ],
+        "pred_answer": "\"Nessun dorma\".",
+        "time_retrieval": 5.8305851998738945,
+        "time_qa": 2.7852807650342584
+    },
+    "65bdc87446b7add98730bbd761375927": {
+        "page_retrieval_results": [
+            [
+                "6b5993243af865090ef8523c16433268",
+                0,
+                11.008709907531738
+            ]
+        ],
+        "pred_answer": "URO VAMTAC",
+        "time_retrieval": 3.2582265669479966,
+        "time_qa": 2.195612797047943
+    },
+    "cf2094fb887db4e555d2a059b525f208": {
+        "page_retrieval_results": [
+            [
+                "5493b8a2fcf36c988528a5d77b4393fa",
+                0,
+                9.568136215209961
+            ]
+        ],
+        "pred_answer": "May 2004",
+        "time_retrieval": 0.49913133727386594,
+        "time_qa": 4.8241138639859855
+    },
+    "1ce59efa7c878ba1e1754dfb221bc548": {
+        "page_retrieval_results": [
+            [
+                "e7b3d5ad0a373bf1e1e9dad5e718897d",
+                4,
+                11.351044654846191
+            ]
+        ],
+        "pred_answer": "\"Saia Justa\", \"A Favorita\".",
+        "time_retrieval": 0.13176843617111444,
+        "time_qa": 2.9741549976170063
+    },
+    "9083343a140a0533e8f7b1c62d960972": {
+        "page_retrieval_results": [
+            [
+                "dc97e970cad56786a626f231f04396fc",
+                8,
+                4.68454647064209
+            ]
+        ],
+        "pred_answer": "Mary, Queen of Scots.",
+        "time_retrieval": 2.3819194780662656,
+        "time_qa": 4.719405697192997
+    },
+    "ef79fd86b8f244294470edafedc577fc": {
+        "page_retrieval_results": [
+            [
+                "4f87166514bc19a89a1fb74cf270b393",
+                0,
+                17.26840591430664
+            ]
+        ],
+        "pred_answer": "California.",
+        "time_retrieval": 3.0109985447488725,
+        "time_qa": 2.466580804437399
+    },
+    "c132fc928153e2009b49449383b28f9e": {
+        "page_retrieval_results": [
+            [
+                "73f38d1dafdd2dc89a6fa947800a8199",
+                1,
+                6.061834335327148
+            ]
+        ],
+        "pred_answer": "1965",
+        "time_retrieval": 4.033327078912407,
+        "time_qa": 3.3513006949797273
+    },
+    "afea66987797f611e5617b3e6cd9f795": {
+        "page_retrieval_results": [
+            [
+                "19a9fc4636a64215d9b3773f6979ed6c",
+                11,
+                6.490931510925293
+            ]
+        ],
+        "pred_answer": "10",
+        "time_retrieval": 0.1300052278675139,
+        "time_qa": 4.133889609016478
+    },
+    "7fe87929b7b43b7654ba2e13bc3c612c": {
+        "page_retrieval_results": [
+            [
+                "bfdbef03674dafe5176f126499612e7c",
+                46,
+                9.138287544250488
+            ]
+        ],
+        "pred_answer": "December 11.",
+        "time_retrieval": 2.5991478357464075,
+        "time_qa": 7.544387219939381
+    },
+    "c49e7cfc4919fe9ca4a361579c582e39": {
+        "page_retrieval_results": [
+            [
+                "e4c48dd2dc58e2590fdc342eb1172a28",
+                5,
+                7.662179946899414
+            ]
+        ],
+        "pred_answer": "Professor McGonagall.",
+        "time_retrieval": 1.2980929086916149,
+        "time_qa": 2.371307979337871
+    },
+    "f7dd1ac143507bd2ab9a480f18b86706": {
+        "page_retrieval_results": [
+            [
+                "e0d2091547643ecb0c2cc2f4417a1088",
+                0,
+                8.820222854614258
+            ]
+        ],
+        "pred_answer": "The 2002 horror film directed by Michael Rymer and starring Aaliyah.",
+        "time_retrieval": 2.970045226626098,
+        "time_qa": 5.835907682776451
+    },
+    "6e8b264bb0c515d2038aa34152d59ad0": {
+        "page_retrieval_results": [
+            [
+                "d5b43ca18a2c78f27ade50d5eb8c6b01",
+                3,
+                11.258231163024902
+            ]
+        ],
+        "pred_answer": "200 metres",
+        "time_retrieval": 0.2160817263647914,
+        "time_qa": 1.776594391092658
+    },
+    "a07eefd749827ca7cf932cd920597ed1": {
+        "page_retrieval_results": [
+            [
+                "11e4de134cddbbe3821cc68b985fbff3",
+                3,
+                12.111419677734375
+            ]
+        ],
+        "pred_answer": "Blue",
+        "time_retrieval": 3.0614579282701015,
+        "time_qa": 1.509655246976763
+    },
+    "fc0a0d000608794811c8e7285ca4d586": {
+        "page_retrieval_results": [
+            [
+                "6a249ac5cc79769be410d0317b98fde6",
+                9,
+                3.8816580772399902
+            ]
+        ],
+        "pred_answer": "Waves",
+        "time_retrieval": 0.1398598221130669,
+        "time_qa": 1.9897485938854516
+    },
+    "51160d2ade04cb76f6bb14f2721fba8a": {
+        "page_retrieval_results": [
+            [
+                "37e8a63ffec276a8fa457d9e5531ec0d",
+                16,
+                6.787296772003174
+            ]
+        ],
+        "pred_answer": "5",
+        "time_retrieval": 0.5111407758668065,
+        "time_qa": 6.019412290304899
+    },
+    "a0a747959c9c41d85aab90f355909d1c": {
+        "page_retrieval_results": [
+            [
+                "e5fa45e7f212a158afee22050997882f",
+                0,
+                14.081071853637695
+            ]
+        ],
+        "pred_answer": "1944",
+        "time_retrieval": 4.568162611685693,
+        "time_qa": 1.5571308499202132
+    },
+    "33964cc270af421351bd75953ba9fa20": {
+        "page_retrieval_results": [
+            [
+                "057f07892cd993f7650c4d05805a4e18",
+                0,
+                6.838726043701172
+            ]
+        ],
+        "pred_answer": "2010",
+        "time_retrieval": 2.2266480568796396,
+        "time_qa": 2.333122116047889
+    },
+    "54d4ccce4b3ac1c7d7fc180c4dbaf1b7": {
+        "page_retrieval_results": [
+            [
+                "d1034a8e66916396ce17846b8a19ff9f",
+                13,
+                5.8099565505981445
+            ]
+        ],
+        "pred_answer": "Nevada",
+        "time_retrieval": 0.14206088008359075,
+        "time_qa": 2.4990868950262666
+    },
+    "98072d2dc9cba03af66d65b9be63218a": {
+        "page_retrieval_results": [
+            [
+                "a104f6c025b5c2a1b80a828942850cd4",
+                7,
+                10.229114532470703
+            ]
+        ],
+        "pred_answer": "No",
+        "time_retrieval": 1.9494114411063492,
+        "time_qa": 1.688318775035441
+    },
+    "e7c969e09ad09682ba2214d72d60ad4d": {
+        "page_retrieval_results": [
+            [
+                "a37c840da485c2c34c8e9ff9feca9dfc",
+                4,
+                4.886693000793457
+            ]
+        ],
+        "pred_answer": "2",
+        "time_retrieval": 0.40113036474213004,
+        "time_qa": 2.1042141071520746
+    },
+    "7275a1bc421f71a683f41129b3daea17": {
+        "page_retrieval_results": [
+            [
+                "2f94454039f886628e87c36a4e2afa0c",
+                0,
+                10.10722827911377
+            ]
+        ],
+        "pred_answer": "Blue",
+        "time_retrieval": 1.022001184988767,
+        "time_qa": 2.1104577789083123
+    },
+    "65cbb957ef58f5c7893023e665e12939": {
+        "page_retrieval_results": [
+            [
+                "f158451d8a600c78f707d5eb603b8660",
+                4,
+                6.945968151092529
+            ]
+        ],
+        "pred_answer": "yes",
+        "time_retrieval": 0.12992054969072342,
+        "time_qa": 1.5318427099846303
+    },
+    "19aa31325873da601bb36c27ca701d0f": {
+        "page_retrieval_results": [
+            [
+                "ad592ff3a3013d5a753b68ca85c2e3e3",
+                5,
+                4.351683139801025
+            ]
+        ],
+        "pred_answer": "Las Vegas",
+        "time_retrieval": 0.2637484911829233,
+        "time_qa": 2.212584442924708
+    },
+    "549d100315654704000cbfe2c33448d6": {
+        "page_retrieval_results": [
+            [
+                "d89fa279b3c0a03e496b195c8e0c48ee",
+                0,
+                10.132073402404785
+            ]
+        ],
+        "pred_answer": "Blumenthal",
+        "time_retrieval": 2.799567229114473,
+        "time_qa": 2.763809122145176
+    },
+    "082e679ef7335d449e250974bacc6101": {
+        "page_retrieval_results": [
+            [
+                "7f9f42c54149c442e3b4f46164737290",
+                5,
+                13.283098220825195
+            ]
+        ],
+        "pred_answer": "Southwestern Athletic Conference.",
+        "time_retrieval": 2.4350029742345214,
+        "time_qa": 2.8827134664170444
+    },
+    "b2112956876703260e89ce77d2fcfb2c": {
+        "page_retrieval_results": [
+            [
+                "373aa83b16200e3e69fa2b5adf955da4",
+                11,
+                6.511572360992432
+            ]
+        ],
+        "pred_answer": "2004.",
+        "time_retrieval": 2.1907191020436585,
+        "time_qa": 3.133608835283667
+    },
+    "e04c574d71bd584fd7bb2aa67f250a4b": {
+        "page_retrieval_results": [
+            [
+                "843322f280f1bd6206cc1c4cdbd01835",
+                21,
+                12.044527053833008
+            ]
+        ],
+        "pred_answer": "1966-05-26.",
+        "time_retrieval": 3.2239761417731643,
+        "time_qa": 4.487671881914139
+    },
+    "e14cb456e067975353f0d3b025dea363": {
+        "page_retrieval_results": [
+            [
+                "4fbb7040e9dc9f3b5677f20a71ca72bb",
+                6,
+                10.433001518249512
+            ]
+        ],
+        "pred_answer": "Crest",
+        "time_retrieval": 0.46428165258839726,
+        "time_qa": 3.6405403641983867
+    },
+    "d038c7cf87eb9e2a6501dea66694d583": {
+        "page_retrieval_results": [
+            [
+                "0904221b3e48fc0da1ba71e5013bc091",
+                0,
+                5.155630588531494
+            ]
+        ],
+        "pred_answer": "Kramer vs. Kramer",
+        "time_retrieval": 2.122197737917304,
+        "time_qa": 2.5595842166803777
+    },
+    "a872fd63bd98761b4a1c30201ef0bc6e": {
+        "page_retrieval_results": [
+            [
+                "15b00c90148703e90684667b6d913bad",
+                4,
+                7.678567409515381
+            ]
+        ],
+        "pred_answer": "Split DVD with Antoine Dufour.",
+        "time_retrieval": 3.631181567441672,
+        "time_qa": 1.7956114993430674
+    },
+    "285df8d27379c272d395ae0850666588": {
+        "page_retrieval_results": [
+            [
+                "9e3bd99f05780e2c4f92854dffc99539",
+                0,
+                8.68083667755127
+            ]
+        ],
+        "pred_answer": "Seventeen",
+        "time_retrieval": 0.12026792112737894,
+        "time_qa": 2.885915882419795
+    },
+    "4c3b38eacd950f2d07657b3cc95d0029": {
+        "page_retrieval_results": [
+            [
+                "549e683903bbc09d3d0a774598d076b1",
+                0,
+                12.5070161819458
+            ]
+        ],
+        "pred_answer": "Blue",
+        "time_retrieval": 0.1617757217027247,
+        "time_qa": 1.5636047720909119
+    },
+    "01cd92855e25addf47c2012848cbeb04": {
+        "page_retrieval_results": [
+            [
+                "35ef9efc5909315924033baf7ce80413",
+                0,
+                4.978041648864746
+            ]
+        ],
+        "pred_answer": "145",
+        "time_retrieval": 2.532476667780429,
+        "time_qa": 3.681337036192417
+    },
+    "539ed6e80ce2a3722b3533e4fd1e7a85": {
+        "page_retrieval_results": [
+            [
+                "bea6d8f002a8cc72bfbc7bb7cb4868eb",
+                4,
+                3.6017980575561523
+            ]
+        ],
+        "pred_answer": "Otis Redding",
+        "time_retrieval": 0.340933111961931,
+        "time_qa": 3.3701446810737252
+    },
+    "e4fedf45de5b3fdb19ab04f43bb2377a": {
+        "page_retrieval_results": [
+            [
+                "ef87a47996dd322fef0e2d769b5fc9c5",
+                0,
+                5.925693988800049
+            ]
+        ],
+        "pred_answer": "Steve McQueen",
+        "time_retrieval": 3.752761503215879,
+        "time_qa": 2.269054913893342
+    },
+    "630efae1a0386b020e92c5e498915294": {
+        "page_retrieval_results": [
+            [
+                "5c6df5d194ffc25236eac4a99571eddb",
+                0,
+                10.468506813049316
+            ]
+        ],
+        "pred_answer": "United States",
+        "time_retrieval": 3.621815794147551,
+        "time_qa": 1.8216216689907014
+    },
+    "f96c4164e11a453e21346329ccad501b": {
+        "page_retrieval_results": [
+            [
+                "26601780cc0a6de3f2d92293b07646ff",
+                0,
+                9.912102699279785
+            ]
+        ],
+        "pred_answer": "American Hustle, Big Eyes.",
+        "time_retrieval": 4.194939015433192,
+        "time_qa": 2.1024953429587185
+    },
+    "dd850aaf84597809f32839033d46e5e4": {
+        "page_retrieval_results": [
+            [
+                "c56cb74e3cd634f31ded1943200b6ef4",
+                0,
+                15.644638061523438
+            ]
+        ],
+        "pred_answer": "1999",
+        "time_retrieval": 7.161745203193277,
+        "time_qa": 2.00095738703385
+    },
+    "9983dcea17dda6d6a05fae211f84870c": {
+        "page_retrieval_results": [
+            [
+                "55e0a6c87b7dcea1aca07dfc23b850ab",
+                4,
+                8.612747192382812
+            ]
+        ],
+        "pred_answer": "BUT RETB/1 \u2020.",
+        "time_retrieval": 2.988773663993925,
+        "time_qa": 2.877060368191451
+    },
+    "c932bd00be5ba7df47e96f7f18c69eda": {
+        "page_retrieval_results": [
+            [
+                "dc97e970cad56786a626f231f04396fc",
+                3,
+                6.49039363861084
+            ]
+        ],
+        "pred_answer": "Dunsinane Hill.",
+        "time_retrieval": 0.3814877117983997,
+        "time_qa": 6.908508558291942
+    },
+    "6f43ce33efc42462b39162e300e577dc": {
+        "page_retrieval_results": [
+            [
+                "58c05cf54c5fe8baaa3d54649e777313",
+                0,
+                10.415220260620117
+            ]
+        ],
+        "pred_answer": "Yes",
+        "time_retrieval": 0.18408771511167288,
+        "time_qa": 2.430684668943286
+    },
+    "3c0143a60a930c43ca2511beaa21d083": {
+        "page_retrieval_results": [
+            [
+                "0904221b3e48fc0da1ba71e5013bc091",
+                1,
+                7.087020397186279
+            ]
+        ],
+        "pred_answer": "Cactus Flower.",
+        "time_retrieval": 1.4739513876847923,
+        "time_qa": 1.7075582910329103
+    },
+    "7173374c77f1c27e397663c455501bba": {
+        "page_retrieval_results": [
+            [
+                "eaebb69e051c5d32ede3ed5e32ff5488",
+                19,
+                8.84109115600586
+            ]
+        ],
+        "pred_answer": "UH-1H",
+        "time_retrieval": 3.48113267775625,
+        "time_qa": 4.6990104778669775
+    },
+    "3b0d437b62cc6bb2ce2037dc2908ccd5": {
+        "page_retrieval_results": [
+            [
+                "0d8e2c3e9163a9621c75d32372ea6cf4",
+                7,
+                3.1916444301605225
+            ]
+        ],
+        "pred_answer": "Koscielny, Debuchy.",
+        "time_retrieval": 2.366918157786131,
+        "time_qa": 4.370183839928359
+    },
+    "9eced682cbd98f4092774f46d88ea73e": {
+        "page_retrieval_results": [
+            [
+                "d0008eb6f603794f4f4ca532a4b50a07",
+                5,
+                7.639937400817871
+            ]
+        ],
+        "pred_answer": "Rishab \"Rishu\" Saxena.",
+        "time_retrieval": 1.7599028297699988,
+        "time_qa": 2.6354753240011632
+    },
+    "696beb3b93732c7364543868f4efca5f": {
+        "page_retrieval_results": [
+            [
+                "57e0b09acf679e69840ef332ab28bcef",
+                5,
+                9.855815887451172
+            ]
+        ],
+        "pred_answer": "Alexa Scimeca and Chris Knierim.",
+        "time_retrieval": 3.228896348271519,
+        "time_qa": 1.9414269886910915
+    },
+    "b28d5efd4c17fb8b96986823543c1fc1": {
+        "page_retrieval_results": [
+            [
+                "536abf4887abef299b97cf343566be6e",
+                5,
+                7.487039089202881
+            ]
+        ],
+        "pred_answer": "Yes",
+        "time_retrieval": 2.6455482696183026,
+        "time_qa": 2.56563413888216
+    },
+    "cf7f2e0c6c906e0d760c694ba57901b5": {
+        "page_retrieval_results": [
+            [
+                "daf17acd64d2263279988f09f8f67c52",
+                12,
+                8.086362838745117
+            ]
+        ],
+        "pred_answer": "Walworth.",
+        "time_retrieval": 3.1429547597654164,
+        "time_qa": 3.6787495901808143
+    },
+    "a801785a88c4a22ba9f8e83b82619157": {
+        "page_retrieval_results": [
+            [
+                "947e0a6276f9f0e12a7b2f85d9cf8b7e",
+                1,
+                7.064579963684082
+            ]
+        ],
+        "pred_answer": "4",
+        "time_retrieval": 0.5907032410614192,
+        "time_qa": 5.321571208070964
+    },
+    "550f9f620d53ee8077154847af3b4651": {
+        "page_retrieval_results": [
+            [
+                "372d12c165a8b2e69b6bfb7756b21e46",
+                6,
+                9.905826568603516
+            ]
+        ],
+        "pred_answer": "Letyan, around Tehran.",
+        "time_retrieval": 3.8273764266632497,
+        "time_qa": 3.7021243758499622
+    },
+    "74efbbe7edd43902b8a259f8d3f9f8a5": {
+        "page_retrieval_results": [
+            [
+                "b6df6b019738e89a58007aa0345dfa44",
+                2,
+                4.4680585861206055
+            ]
+        ],
+        "pred_answer": "Fred Spofforth.",
+        "time_retrieval": 0.26416800497099757,
+        "time_qa": 2.178228466771543
+    },
+    "e3bbe032d0d61df79fafe4836da6631a": {
+        "page_retrieval_results": [
+            [
+                "880c56db774270eec057f6c85ba76165",
+                3,
+                7.949859142303467
+            ]
+        ],
+        "pred_answer": "Sacramento",
+        "time_retrieval": 0.47887966502457857,
+        "time_qa": 2.477124597877264
+    },
+    "ebbc4d5836afde56f6c50d6f06deff2e": {
+        "page_retrieval_results": [
+            [
+                "9f2b28cba76f9644386540fe305caa19",
+                3,
+                10.420146942138672
+            ]
+        ],
+        "pred_answer": "Claire Denis.",
+        "time_retrieval": 4.525368022732437,
+        "time_qa": 2.311576258856803
+    },
+    "89317cdd73ec3b7a3b1ba99c3d9d4e82": {
+        "page_retrieval_results": [
+            [
+                "246ed94f09db711d85c36b3ada80aa1b",
+                0,
+                15.092740058898926
+            ]
+        ],
+        "pred_answer": "Shirt",
+        "time_retrieval": 1.5790203427895904,
+        "time_qa": 2.097630794160068
+    },
+    "bdb9330aba2a3f49476c92ee34033d9d": {
+        "page_retrieval_results": [
+            [
+                "f6d888c644f6741b0fde77dbd230ea5e",
+                6,
+                15.083837509155273
+            ]
+        ],
+        "pred_answer": "1976.",
+        "time_retrieval": 2.4364741421304643,
+        "time_qa": 4.675482437945902
+    },
+    "bc2e226b953fe9073c646c40b6fbbe73": {
+        "page_retrieval_results": [
+            [
+                "e8b6c185f36df8593969fa82d1ea9f61",
+                0,
+                5.793885707855225
+            ]
+        ],
+        "pred_answer": "Benjamin Joseph Savage",
+        "time_retrieval": 1.5116247348487377,
+        "time_qa": 2.712315055076033
+    },
+    "59e9d2f259f1c5b488d8d7f8e331ed3f": {
+        "page_retrieval_results": [
+            [
+                "c335299c40f56a14365429ec0dcc2f3d",
+                4,
+                9.494139671325684
+            ]
+        ],
+        "pred_answer": "Battle of Midway",
+        "time_retrieval": 2.2181961056776345,
+        "time_qa": 1.650596785824746
+    },
+    "88e2248713ef5d585d4c2ecae107d8f1": {
+        "page_retrieval_results": [
+            [
+                "76db57345979c0fe381599d85dc6b681",
+                0,
+                6.127448081970215
+            ]
+        ],
+        "pred_answer": "No",
+        "time_retrieval": 0.12259138701483607,
+        "time_qa": 1.5258750058710575
+    },
+    "a4bbf92454866153dcba2022731c1e2a": {
+        "page_retrieval_results": [
+            [
+                "d08262b46c45dbd0a21bb31869a7ac42",
+                5,
+                4.525039196014404
+            ]
+        ],
+        "pred_answer": "\"Walk the Wire\".",
+        "time_retrieval": 4.03167509008199,
+        "time_qa": 4.676526566967368
+    },
+    "9d249d4e530d7a3cdc9807f1e7cd584f": {
+        "page_retrieval_results": [
+            [
+                "4bd9336ffdb1593d71a919b7e7d68995",
+                20,
+                3.8607382774353027
+            ]
+        ],
+        "pred_answer": "21.",
+        "time_retrieval": 2.5753839761018753,
+        "time_qa": 5.710587588138878
+    },
+    "b5d7685e595423638d26dd60e99fcc39": {
+        "page_retrieval_results": [
+            [
+                "e063fb434c5ec75938803bb31ca533c8",
+                0,
+                11.138825416564941
+            ]
+        ],
+        "pred_answer": "Augusto Buccafusco.",
+        "time_retrieval": 1.6036504339426756,
+        "time_qa": 4.52382872113958
+    },
+    "28bbe6fa4a8f5277ba4354085ec4663f": {
+        "page_retrieval_results": [
+            [
+                "217469315ba1763765d35978e6699946",
+                11,
+                5.205038070678711
+            ]
+        ],
+        "pred_answer": "Homeless encampment",
+        "time_retrieval": 0.13719828985631466,
+        "time_qa": 3.339367351960391
+    },
+    "575502063ebc1c1f37d8c91801ea4240": {
+        "page_retrieval_results": [
+            [
+                "999b966bb547c0293e9c117d33b4d2ff",
+                0,
+                24.354948043823242
+            ]
+        ],
+        "pred_answer": "Bob Reinhard.",
+        "time_retrieval": 2.5632711150683463,
+        "time_qa": 1.7820444949902594
+    },
+    "e0d4b15a16ba2117d826756f0f7be670": {
+        "page_retrieval_results": [
+            [
+                "eaa0c0c4cc0dd86f018c73df11add790",
+                2,
+                11.088163375854492
+            ]
+        ],
+        "pred_answer": "American Crude",
+        "time_retrieval": 1.7892846809700131,
+        "time_qa": 2.3540283972397447
+    },
+    "32018983385589129e3e1db2798de64b": {
+        "page_retrieval_results": [
+            [
+                "536436ac97ab68e0ab05ae8a58084574",
+                2,
+                6.793397426605225
+            ]
+        ],
+        "pred_answer": "Ric Flair.",
+        "time_retrieval": 3.706290984991938,
+        "time_qa": 1.8380173300392926
+    },
+    "d427ef41fd39dc68b8fa40b73a0313e6": {
+        "page_retrieval_results": [
+            [
+                "d8dd7790f9f952dec9e4fe4a3b7b8140",
+                0,
+                13.772631645202637
+            ]
+        ],
+        "pred_answer": "2.795 mi / 4.498 km",
+        "time_retrieval": 2.917618917301297,
+        "time_qa": 2.4613717482425272
+    },
+    "9bc595b3e66c665ed68306fea3da7a86": {
+        "page_retrieval_results": [
+            [
+                "f3cff196a2c8f100a152b3a367c1a8e9",
+                12,
+                9.772635459899902
+            ]
+        ],
+        "pred_answer": "Golden State, L.A. Lakers, Phoenix.",
+        "time_retrieval": 2.9957730188034475,
+        "time_qa": 3.116059167776257
+    },
+    "f8124cf0c11d6e226324415d569343cf": {
+        "page_retrieval_results": [
+            [
+                "c69dc5d997f470f873bffeb748eeaace",
+                0,
+                15.323394775390625
+            ]
+        ],
+        "pred_answer": "Pauline Fossil",
+        "time_retrieval": 1.9008051678538322,
+        "time_qa": 2.9066023700870574
+    },
+    "f11cff3920ce9f8a27dc4fe961f10d5c": {
+        "page_retrieval_results": [
+            [
+                "f5d13fae9c12de46bc6dce259da1ad77",
+                5,
+                9.44662094116211
+            ]
+        ],
+        "pred_answer": "Steve Harvey.",
+        "time_retrieval": 3.0883048898540437,
+        "time_qa": 2.4514995543286204
+    },
+    "0efd517e21041f77d5bd4827eb93391e": {
+        "page_retrieval_results": [
+            [
+                "1de425fd11dd119485d0b1fbe4f7e9bb",
+                0,
+                10.140182495117188
+            ]
+        ],
+        "pred_answer": "Siemens",
+        "time_retrieval": 2.896136248949915,
+        "time_qa": 2.20713358419016
+    },
+    "79c46102455f37942fcd1004316f547b": {
+        "page_retrieval_results": [
+            [
+                "5e87b9b2bea1bc276227c35948388915",
+                1,
+                10.388428688049316
+            ]
+        ],
+        "pred_answer": "The movie featuring the song Because You Loved Me.",
+        "time_retrieval": 3.1718923072330654,
+        "time_qa": 2.087274962104857
+    },
+    "38c1941d018f20d7ea7f126c4693a86b": {
+        "page_retrieval_results": [
+            [
+                "d55d8aad0eda9621fdd87e3bc70bb562",
+                0,
+                15.946526527404785
+            ]
+        ],
+        "pred_answer": "New York Yankees",
+        "time_retrieval": 6.5812612641602755,
+        "time_qa": 1.8792043216526508
+    },
+    "8cdb959b9a2bc31f518e0874876919df": {
+        "page_retrieval_results": [
+            [
+                "162384726c24cdb78c0e3dd80ed7b6d1",
+                6,
+                5.873477935791016
+            ]
+        ],
+        "pred_answer": "No.",
+        "time_retrieval": 2.357590774074197,
+        "time_qa": 3.4970123870298266
+    },
+    "98d5c06b3074e2dac6e6d24bc5cac6d1": {
+        "page_retrieval_results": [
+            [
+                "49bd3b7ae98967b6e829564db092be6f",
+                0,
+                7.216590881347656
+            ]
+        ],
+        "pred_answer": "Forest Row",
+        "time_retrieval": 3.305614008102566,
+        "time_qa": 2.2405500798486173
+    },
+    "3ca71c50d4b7a26f9220474f1354dd42": {
+        "page_retrieval_results": [
+            [
+                "baf7dd14c4322bccd458a229f2ca5987",
+                6,
+                6.0305280685424805
+            ]
+        ],
+        "pred_answer": "Guymon, OK.",
+        "time_retrieval": 1.181712199933827,
+        "time_qa": 2.749581767246127
+    },
+    "7800141292d95a683a3aa9d8c82f70fb": {
+        "page_retrieval_results": [
+            [
+                "0aba94ce585bab43b8a798af3a9cb901",
+                14,
+                5.119381904602051
+            ]
+        ],
+        "pred_answer": "Algeria national football team.",
+        "time_retrieval": 2.264729030895978,
+        "time_qa": 3.4140507020056248
+    },
+    "4cbf85831424dcebd968c6c1b95a55ff": {
+        "page_retrieval_results": [
+            [
+                "5327b50496f197334c6d24137dc263b9",
+                1,
+                11.484489440917969
+            ]
+        ],
+        "pred_answer": "Malik Reed.",
+        "time_retrieval": 2.2507033399306238,
+        "time_qa": 2.993218079674989
+    },
+    "24c7587760a5f917b383d144aabea6ae": {
+        "page_retrieval_results": [
+            [
+                "4b72da357f2ccb5afde2305de9b137fe",
+                12,
+                7.378684043884277
+            ]
+        ],
+        "pred_answer": "No",
+        "time_retrieval": 0.7474423819221556,
+        "time_qa": 4.3092753598466516
+    },
+    "74f9019633803db0ac332ee70ff326b0": {
+        "page_retrieval_results": [
+            [
+                "effa614e528442c02bec663a8c666c75",
+                0,
+                4.679618835449219
+            ]
+        ],
+        "pred_answer": "1990",
+        "time_retrieval": 0.12882231082767248,
+        "time_qa": 4.546344925183803
+    },
+    "517494cb82148b667355e2709829dd98": {
+        "page_retrieval_results": [
+            [
+                "35ef9efc5909315924033baf7ce80413",
+                3,
+                3.9602174758911133
+            ]
+        ],
+        "pred_answer": "22.5 mm",
+        "time_retrieval": 0.29607261111959815,
+        "time_qa": 3.7965003051795065
+    },
+    "43fc7f91ff87ce3f83fc78cd89ef2839": {
+        "page_retrieval_results": [
+            [
+                "efb36baba3c7843889655add732c2572",
+                0,
+                13.040822982788086
+            ]
+        ],
+        "pred_answer": "Chambersburg",
+        "time_retrieval": 2.472079878207296,
+        "time_qa": 2.013642387930304
+    },
+    "0779ef7643cd57a5a8464ce5b31d682f": {
+        "page_retrieval_results": [
+            [
+                "fabec8e51258c88907a4a8a31ce55189",
+                0,
+                11.891225814819336
+            ]
+        ],
+        "pred_answer": "The Cardigans",
+        "time_retrieval": 3.657073871232569,
+        "time_qa": 2.0766233280301094
+    },
+    "d202c1a50d0d553c5593864aa4886a2a": {
+        "page_retrieval_results": [
+            [
+                "a1c4a89265a628ab40b3926cfce85681",
+                2,
+                5.264198303222656
+            ]
+        ],
+        "pred_answer": "Ilithyia.",
+        "time_retrieval": 2.464117085095495,
+        "time_qa": 2.0217467648908496
+    },
+    "9ebf96cc70a051c34359b6d4fd40bf75": {
+        "page_retrieval_results": [
+            [
+                "a340924122c49cd8cf546124af990e0d",
+                1,
+                10.406682014465332
+            ]
+        ],
+        "pred_answer": "Marjorie Bransfield",
+        "time_retrieval": 2.53151862276718,
+        "time_qa": 6.3931334861554205
+    },
+    "dd150ecf0403efc5a0bbeca8b288b54c": {
+        "page_retrieval_results": [
+            [
+                "e2c0b8dbcd9ecbeda19d6030500a6c88",
+                1,
+                6.527892112731934
+            ]
+        ],
+        "pred_answer": "MacColl.",
+        "time_retrieval": 2.194563256110996,
+        "time_qa": 1.763948690611869
+    },
+    "d96a20235dd15e1eb8544ad9d28494e2": {
+        "page_retrieval_results": [
+            [
+                "20c9cf0cce563425fa8d9195e3c94980",
+                2,
+                6.260956764221191
+            ]
+        ],
+        "pred_answer": "\"Something in the Water\".",
+        "time_retrieval": 2.432587827090174,
+        "time_qa": 2.661116624251008
+    },
+    "5aad242cee2a8c42383b4ad6c65d27cb": {
+        "page_retrieval_results": [
+            [
+                "a2b1ae0a1667103c2d941fc2504b2b4b",
+                0,
+                6.890949726104736
+            ]
+        ],
+        "pred_answer": "true",
+        "time_retrieval": 0.3694160869345069,
+        "time_qa": 1.9941756268963218
+    },
+    "29a94164b22263351cc79f515a5b8e8b": {
+        "page_retrieval_results": [
+            [
+                "8d681734b438fda04229b5be2bca96d5",
+                11,
+                5.430174827575684
+            ]
+        ],
+        "pred_answer": "Monmouth.",
+        "time_retrieval": 4.5373777421191335,
+        "time_qa": 8.206590690184385
+    },
+    "4210004707cdbc91aee6a123373ef18b": {
+        "page_retrieval_results": [
+            [
+                "36e8617abc9b679ed498d8193c1c3141",
+                0,
+                59.56435012817383
+            ]
+        ],
+        "pred_answer": "3",
+        "time_retrieval": 4.552621711976826,
+        "time_qa": 2.2394440448842943
+    },
+    "f702faf69a0e5168f0533d4c8d08a860": {
+        "page_retrieval_results": [
+            [
+                "6d5c305d2fcda39a657004d17b10e8c8",
+                12,
+                14.011444091796875
+            ]
+        ],
+        "pred_answer": "John Hopkins.",
+        "time_retrieval": 3.3420798457227647,
+        "time_qa": 4.360811580903828
+    },
+    "c1f13aa61f87752fa5bc6b95a9c087a9": {
+        "page_retrieval_results": [
+            [
+                "965576ad67a3a0f818bd496961cc8c5a",
+                3,
+                6.6655778884887695
+            ]
+        ],
+        "pred_answer": "Musician.",
+        "time_retrieval": 4.038374695926905,
+        "time_qa": 1.6860055048018694
+    },
+    "d8a3cc4403fbcb2ea99382815730ddec": {
+        "page_retrieval_results": [
+            [
+                "0483a438e5f39b9e59de3f9e15870bce",
+                0,
+                4.729434013366699
+            ]
+        ],
+        "pred_answer": "Basketball",
+        "time_retrieval": 5.340896103065461,
+        "time_qa": 1.87244142126292
+    },
+    "7215e56298c0f7a82f95241121f76a27": {
+        "page_retrieval_results": [
+            [
+                "ef14b03f47c5552773f8729b80814fa8",
+                26,
+                7.069774150848389
+            ]
+        ],
+        "pred_answer": "Virginia Destroyers.",
+        "time_retrieval": 3.297899407800287,
+        "time_qa": 2.4658660241402686
+    },
+    "29f6c6195bf014f1499c85bcb4f22d8f": {
+        "page_retrieval_results": [
+            [
+                "163c5da52cdf757029aee90ad6f96317",
+                0,
+                9.345065116882324
+            ]
+        ],
+        "pred_answer": "holding a medal",
+        "time_retrieval": 0.12556631909683347,
+        "time_qa": 3.7862580828368664
+    },
+    "64f3da0b57f026e09261a66f0b4df19f": {
+        "page_retrieval_results": [
+            [
+                "5c2e63329cb48bbac1f03d77a93ff53c",
+                5,
+                3.8015899658203125
+            ]
+        ],
+        "pred_answer": "10,061.",
+        "time_retrieval": 0.7757210652343929,
+        "time_qa": 3.6292476137168705
+    },
+    "172ac97087bb92ca50b403a424a509c6": {
+        "page_retrieval_results": [
+            [
+                "04db5b0f676f5ecdd9ade3cd53b42f1c",
+                5,
+                7.082353591918945
+            ]
+        ],
+        "pred_answer": "New in Town.",
+        "time_retrieval": 0.9759258376434445,
+        "time_qa": 2.175690565723926
+    },
+    "64d51cfeb0caa713022583a6f2fce8a3": {
+        "page_retrieval_results": [
+            [
+                "83ff45219d6d7fcc3775e9b9d06ed8cb",
+                0,
+                11.452336311340332
+            ]
+        ],
+        "pred_answer": "1970",
+        "time_retrieval": 0.1290695988573134,
+        "time_qa": 1.3538579563610256
+    },
+    "3b3793152347552aea6d81cf2d24a82b": {
+        "page_retrieval_results": [
+            [
+                "e51e7755477179a20eab8310a1c25559",
+                10,
+                9.743759155273438
+            ]
+        ],
+        "pred_answer": "Annalena Baerbock.",
+        "time_retrieval": 3.5601227930746973,
+        "time_qa": 3.9773235078901052
+    },
+    "f3f14320f6cd2d29f36fdad2914cdb7c": {
+        "page_retrieval_results": [
+            [
+                "424323b9f693ea9a62deb8af0a511a98",
+                5,
+                6.465076923370361
+            ]
+        ],
+        "pred_answer": "No",
+        "time_retrieval": 1.980980983003974,
+        "time_qa": 2.7828328739851713
+    },
+    "16188ee24c33e8514c4d7cec76b9294d": {
+        "page_retrieval_results": [
+            [
+                "894ccc11945771f652c1ff5d32d3d696",
+                0,
+                12.527531623840332
+            ]
+        ],
+        "pred_answer": "New York Rangers.",
+        "time_retrieval": 1.4677924369461834,
+        "time_qa": 4.768507828004658
+    },
+    "30b210f40a1a8ef43170149dff7a18bc": {
+        "page_retrieval_results": [
+            [
+                "f94c9c206da0bcfe46d27debe52a6937",
+                2,
+                11.48362922668457
+            ]
+        ],
+        "pred_answer": "Yes.",
+        "time_retrieval": 0.14406641386449337,
+        "time_qa": 2.5364558110013604
+    },
+    "874fcfc3e3dc258ce2371874de2c34a1": {
+        "page_retrieval_results": [
+            [
+                "a340924122c49cd8cf546124af990e0d",
+                1,
+                6.820714950561523
+            ]
+        ],
+        "pred_answer": "Yes",
+        "time_retrieval": 1.4729648069478571,
+        "time_qa": 1.8318482460454106
+    },
+    "4b7618437e2c56c04341e5cff9540fa0": {
+        "page_retrieval_results": [
+            [
+                "b9eff2df265f5dc2621473b9a2cc347f",
+                2,
+                6.296964645385742
+            ]
+        ],
+        "pred_answer": "Gee Bee.",
+        "time_retrieval": 3.173697997815907,
+        "time_qa": 1.6980919078923762
+    },
+    "0d5bdc6216839facec399043d27e7bb1": {
+        "page_retrieval_results": [
+            [
+                "b80eec4edd73e2d7b7f28b6abbdaae64",
+                0,
+                7.655534744262695
+            ]
+        ],
+        "pred_answer": "Yes",
+        "time_retrieval": 0.2686584470793605,
+        "time_qa": 3.7540417490527034
+    },
+    "ce9bae519800c15e184caf378cbc125d": {
+        "page_retrieval_results": [
+            [
+                "9d831bbf66251be3d744cdfc245c4a3c",
+                8,
+                4.455143928527832
+            ]
+        ],
+        "pred_answer": "motorcycle",
+        "time_retrieval": 1.280516596045345,
+        "time_qa": 4.392110354732722
+    },
+    "4759137292c9c2132ebd79fa2b27d942": {
+        "page_retrieval_results": [
+            [
+                "ce74c5c019b989b197c8c15bd388c629",
+                12,
+                3.511245012283325
+            ]
+        ],
+        "pred_answer": "Yes",
+        "time_retrieval": 0.14062679093331099,
+        "time_qa": 4.4691279088146985
+    },
+    "bdee69108b1958223eb4c327be1b9b35": {
+        "page_retrieval_results": [
+            [
+                "6820d034c9a0646d0d7d5caf6c1ecea5",
+                8,
+                4.547939300537109
+            ]
+        ],
+        "pred_answer": "Stoyan Stoimenov.",
+        "time_retrieval": 4.371378227137029,
+        "time_qa": 2.313274649903178
+    },
+    "456257bbbe5206dfeadc7e3a19115aa0": {
+        "page_retrieval_results": [
+            [
+                "5ba45a1f7eb942b5e8071d41ee1a5d5a",
+                8,
+                11.568281173706055
+            ]
+        ],
+        "pred_answer": "Swavesey (St Andrew).",
+        "time_retrieval": 3.469445636961609,
+        "time_qa": 5.727183007169515
+    },
+    "f98b0ac7e384c8ada1b985bcf2a2aab0": {
+        "page_retrieval_results": [
+            [
+                "ee19d96e96770cba0cdcba49ab2ce6cb",
+                4,
+                8.408697128295898
+            ]
+        ],
+        "pred_answer": "Bono.",
+        "time_retrieval": 1.2975891488604248,
+        "time_qa": 2.9853057162836194
+    },
+    "79ced53ac2a89ac1003331485df575e7": {
+        "page_retrieval_results": [
+            [
+                "0c5d9c38191ee0da45d9218b236cd9c4",
+                8,
+                4.270011901855469
+            ]
+        ],
+        "pred_answer": "The voice artist of the baby in look who's talking.",
+        "time_retrieval": 5.10746996384114,
+        "time_qa": 2.8287720680236816
+    },
+    "0282a5fdfef721600ea235866aff0e1f": {
+        "page_retrieval_results": [
+            [
+                "fd4309c7e0ee8cdef87fd482ce1a1608",
+                7,
+                7.468429088592529
+            ]
+        ],
+        "pred_answer": "Maya Rudolph.",
+        "time_retrieval": 2.1128623210825026,
+        "time_qa": 2.7598402108997107
+    },
+    "095fc3a41d77542e31001da8c68fd350": {
+        "page_retrieval_results": [
+            [
+                "c8d8e51c58e15c31cd0c91e1ca6e6cd5",
+                3,
+                9.907573699951172
+            ]
+        ],
+        "pred_answer": "Poland.",
+        "time_retrieval": 4.6309170802123845,
+        "time_qa": 1.793033700902015
+    },
+    "eaa6860ac718c20f4abd5907d1c60354": {
+        "page_retrieval_results": [
+            [
+                "ad592ff3a3013d5a753b68ca85c2e3e3",
+                11,
+                7.186128616333008
+            ]
+        ],
+        "pred_answer": "Yes.",
+        "time_retrieval": 1.0915359212085605,
+        "time_qa": 2.022280446253717
+    },
+    "2c1fda37f3d5aa91425bcfe49a425568": {
+        "page_retrieval_results": [
+            [
+                "9975f93834166e70263e5f8df581c7d2",
+                7,
+                8.975987434387207
+            ]
+        ],
+        "pred_answer": "0",
+        "time_retrieval": 0.35383893083781004,
+        "time_qa": 3.063849324826151
+    },
+    "2b745ff8aa00b90b06ff008120c82b5b": {
+        "page_retrieval_results": [
+            [
+                "4b72da357f2ccb5afde2305de9b137fe",
+                25,
+                3.7450191974639893
+            ]
+        ],
+        "pred_answer": "1993.",
+        "time_retrieval": 0.5547756138257682,
+        "time_qa": 4.910059666261077
+    },
+    "a7ec1735c5828e32167884e1fc7b216e": {
+        "page_retrieval_results": [
+            [
+                "62e5f359440292848f3404f3eaa79815",
+                3,
+                8.00231647491455
+            ]
+        ],
+        "pred_answer": "Brie Larson.",
+        "time_retrieval": 4.997377500869334,
+        "time_qa": 1.6454691123217344
+    },
+    "f29c89b2f5f0f9cce914b46e23c00415": {
+        "page_retrieval_results": [
+            [
+                "f5b6a5516b4ada7c6c6791d51088d556",
+                1,
+                13.213906288146973
+            ]
+        ],
+        "pred_answer": "Ulysses.",
+        "time_retrieval": 3.464275079779327,
+        "time_qa": 2.460714727640152
+    },
+    "b9d69883fd73002805944cb7a413cbfc": {
+        "page_retrieval_results": [
+            [
+                "789898ec5b33423e1615353787931501",
+                0,
+                17.477344512939453
+            ]
+        ],
+        "pred_answer": "U.S.",
+        "time_retrieval": 4.975236372556537,
+        "time_qa": 1.6382596879266202
+    },
+    "ad02c62ee43ccdf0760046cd083221ce": {
+        "page_retrieval_results": [
+            [
+                "2f50fa0da7a565b3f85c9ae471a3cc4b",
+                0,
+                15.074594497680664
+            ]
+        ],
+        "pred_answer": "Billy Dee Williams",
+        "time_retrieval": 0.38663928816094995,
+        "time_qa": 3.2494231602177024
+    },
+    "a7674510ffb962fbfdf99d5a4b1d34fa": {
+        "page_retrieval_results": [
+            [
+                "6e5d34fd4985a2a1792ab7753faed293",
+                5,
+                6.515382766723633
+            ]
+        ],
+        "pred_answer": "\"Khoj\" and \"Bhalobasa Bhalobasa\".",
+        "time_retrieval": 0.4553858572617173,
+        "time_qa": 3.5283710537478328
+    },
+    "7df8b8f6ad59e842f361b9c9dcd35742": {
+        "page_retrieval_results": [
+            [
+                "972599b05d4c3ad64a6b73a84cddc568",
+                36,
+                3.2178328037261963
+            ]
+        ],
+        "pred_answer": "yes",
+        "time_retrieval": 0.32866710890084505,
+        "time_qa": 4.034822318702936
+    },
+    "4b7d25d0c7059cc189e2d744be36b3f3": {
+        "page_retrieval_results": [
+            [
+                "44bf27203d20c57612cad3861803bdcc",
+                0,
+                22.519235610961914
+            ]
+        ],
+        "pred_answer": "Julius Caesar.",
+        "time_retrieval": 9.325593926012516,
+        "time_qa": 1.684204255696386
+    },
+    "4eafd578403cb1ff22ba09d75a41584a": {
+        "page_retrieval_results": [
+            [
+                "652d8e33e5837c61457086487c6d177a",
+                0,
+                8.103982925415039
+            ]
+        ],
+        "pred_answer": "Fraser Clarke Heston",
+        "time_retrieval": 2.6893136966973543,
+        "time_qa": 1.989275204949081
+    },
+    "e3e9397b98515fe59d2256edc92f061b": {
+        "page_retrieval_results": [
+            [
+                "6c931d337988ce140428863902979798",
+                1,
+                11.552924156188965
+            ]
+        ],
+        "pred_answer": "The Lotus Pond.",
+        "time_retrieval": 2.13302183104679,
+        "time_qa": 3.663063636980951
+    },
+    "833fc02422f4a0a0c6ee4a797fd43816": {
+        "page_retrieval_results": [
+            [
+                "ac6604cc54b636a716b32102ae810443",
+                5,
+                8.989500999450684
+            ]
+        ],
+        "pred_answer": "A Waste of Shame: The Mystery of Shakespeare and His Sonnets.",
+        "time_retrieval": 2.1815566238947213,
+        "time_qa": 2.7815648140385747
+    },
+    "8b890ad480a0beb0bf8683defb6e27c8": {
+        "page_retrieval_results": [
+            [
+                "2dff1cdc4243580261d9f397d19043e7",
+                0,
+                9.788308143615723
+            ]
+        ],
+        "pred_answer": "Red Lights",
+        "time_retrieval": 1.2152658621780574,
+        "time_qa": 1.7408858151175082
+    },
+    "d44d6cf7527e24ab0a3a9332d81cf0bf": {
+        "page_retrieval_results": [
+            [
+                "a4d3a79420a2b704eb9da79d632e2c63",
+                2,
+                4.4667277336120605
+            ]
+        ],
+        "pred_answer": "Susan Sarandon",
+        "time_retrieval": 0.8943458967842162,
+        "time_qa": 5.217536112293601
+    },
+    "5f86001492f85da64e885919fa80b29d": {
+        "page_retrieval_results": [
+            [
+                "9bcc71893796a385e51b64ef95d04300",
+                14,
+                2.8057122230529785
+            ]
+        ],
+        "pred_answer": "Isabella",
+        "time_retrieval": 1.0888269441202283,
+        "time_qa": 7.76287443889305
+    },
+    "63338d175b41561e9299934275d29e13": {
+        "page_retrieval_results": [
+            [
+                "980222abe791df5dabde4822414516f1",
+                22,
+                8.516949653625488
+            ]
+        ],
+        "pred_answer": "Hagerstown",
+        "time_retrieval": 0.13938026688992977,
+        "time_qa": 3.780642287340015
+    },
+    "734eb81fa64cffa48fa112a1af4010af": {
+        "page_retrieval_results": [
+            [
+                "dbf3c1b1a6a5245e58e33a56019eb805",
+                14,
+                6.78717565536499
+            ]
+        ],
+        "pred_answer": "Mukono",
+        "time_retrieval": 0.9179605091921985,
+        "time_qa": 2.420360424090177
+    },
+    "ebcd9760479f5a6590141103f01b6f19": {
+        "page_retrieval_results": [
+            [
+                "58eb8f467b1936834aee86981b8e2b2c",
+                8,
+                13.049686431884766
+            ]
+        ],
+        "pred_answer": "Alexandru Greab.",
+        "time_retrieval": 5.372027596924454,
+        "time_qa": 4.005727234296501
+    },
+    "dd429cba20ce1d56b1502e09a86c8d0d": {
+        "page_retrieval_results": [
+            [
+                "d9c0183f6ea926a9d002cd2a4070c465",
+                8,
+                4.852952003479004
+            ]
+        ],
+        "pred_answer": "Battlestar Galactica.",
+        "time_retrieval": 2.018005878198892,
+        "time_qa": 2.3092054151929915
+    },
+    "9256909e1deb99872689907d48f84cb2": {
+        "page_retrieval_results": [
+            [
+                "43209e0265f828b9d60d4c4aa1ec7fa0",
+                8,
+                8.631122589111328
+            ]
+        ],
+        "pred_answer": "Mitsubishi",
+        "time_retrieval": 2.6939594000577927,
+        "time_qa": 1.7378362300805748
+    },
+    "39db9d563c3c1f8a51faf3fec9e73670": {
+        "page_retrieval_results": [
+            [
+                "e52472c82fb49d2d06a7418daedb4bee",
+                2,
+                7.247897148132324
+            ]
+        ],
+        "pred_answer": "3.",
+        "time_retrieval": 1.50798662006855,
+        "time_qa": 1.6125425868667662
+    }
+}

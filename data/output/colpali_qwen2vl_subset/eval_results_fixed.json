@@ -1,0 +1,111 @@
+{
+  "overall": {
+    "list_em": 32.0,
+    "list_f1": 35.61333333333334
+  },
+  "modalities": {
+    "image": {
+      "list_em": 24.242424242424242,
+      "list_f1": 26.515151515151516
+    },
+    "table": {
+      "list_em": 30.909090909090907,
+      "list_f1": 35.61818181818182
+    },
+    "text": {
+      "list_em": 37.096774193548384,
+      "list_f1": 40.4516129032258
+    }
+  },
+  "hop_types": {
+    "Multi-hop": {
+      "count": 62,
+      "list_em": 30.64516129032258,
+      "list_f1": 32.95161290322581
+    },
+    "Single-hop": {
+      "count": 88,
+      "list_em": 32.95454545454545,
+      "list_f1": 37.48863636363636
+    }
+  },
+  "q_types": {
+    "Compare(Compose(TableQ,ImageQ),Compose(TableQ,TextQ))": {
+      "count": 2,
+      "list_em": 0.0,
+      "list_f1": 0.0
+    },
+    "Compare(Compose(TableQ,ImageQ),TableQ)": {
+      "count": 9,
+      "list_em": 66.66666666666666,
+      "list_f1": 69.88888888888889
+    },
+    "Compare(TableQ,Compose(TableQ,TextQ))": {
+      "count": 5,
+      "list_em": 60.0,
+      "list_f1": 60.0
+    },
+    "Compose(ImageQ,TableQ)": {
+      "count": 8,
+      "list_em": 37.5,
+      "list_f1": 37.5
+    },
+    "Compose(TableQ,ImageListQ)": {
+      "count": 9,
+      "list_em": 0.0,
+      "list_f1": 0.0
+    },
+    "Compose(TableQ,TextQ)": {
+      "count": 6,
+      "list_em": 16.666666666666664,
+      "list_f1": 23.333333333333332
+    },
+    "Compose(TextQ,ImageListQ)": {
+      "count": 3,
+      "list_em": 0.0,
+      "list_f1": 22.333333333333336
+    },
+    "Compose(TextQ,TableQ)": {
+      "count": 17,
+      "list_em": 29.411764705882355,
+      "list_f1": 29.82352941176471
+    },
+    "ImageListQ": {
+      "count": 10,
+      "list_em": 0.0,
+      "list_f1": 7.5
+    },
+    "ImageQ": {
+      "count": 15,
+      "list_em": 33.33333333333333,
+      "list_f1": 33.33333333333333
+    },
+    "Intersect(ImageListQ,TableQ)": {
+      "count": 2,
+      "list_em": 0.0,
+      "list_f1": 0.0
+    },
+    "Intersect(TableQ,TextQ)": {
+      "count": 1,
+      "list_em": 100.0,
+      "list_f1": 100.0
+    },
+    "TableQ": {
+      "count": 23,
+      "list_em": 34.78260869565217,
+      "list_f1": 43.04347826086957
+    },
+    "TextQ": {
+      "count": 40,
+      "list_em": 40.0,
+      "list_f1": 43.35
+    }
+  },
+  "average_recall_at_k": {
+    "1": 0.6415079365079365,
+    "2": 0.6415079365079365,
+    "4": 0.6415079365079365,
+    "5": 0.6415079365079365,
+    "10": 0.6415079365079365
+  }
+}

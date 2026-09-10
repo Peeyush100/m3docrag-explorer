@@ -1,0 +1,79 @@
+{
+    "overall": {
+        "list_em": 32.0,
+        "list_f1": 35.61333333333334
+    },
+    "modalities": {
+        "image": {
+            "list_em": 24.242424242424242,
+            "list_f1": 26.515151515151516
+        },
+        "table": {
+            "list_em": 30.909090909090907,
+            "list_f1": 35.61818181818182
+        },
+        "text": {
+            "list_em": 37.096774193548384,
+            "list_f1": 40.4516129032258
+        }
+    },
+    "hop_types": {
+        "Multi-hop": {
+            "list_f1": 40.4516129032258
+        },
+        "Single-hop": {
+            "list_f1": 40.4516129032258
+        }
+    },
+    "q_types": {
+        "Compare(Compose(TableQ,ImageQ),Compose(TableQ,TextQ))": {
+            "list_f1": 40.4516129032258
+        },
+        "Compare(Compose(TableQ,ImageQ),TableQ)": {
+            "list_f1": 40.4516129032258
+        },
+        "Compare(TableQ,Compose(TableQ,TextQ))": {
+            "list_f1": 40.4516129032258
+        },
+        "Compose(ImageQ,TableQ)": {
+            "list_f1": 40.4516129032258
+        },
+        "Compose(TableQ,ImageListQ)": {
+            "list_f1": 40.4516129032258
+        },
+        "Compose(TableQ,TextQ)": {
+            "list_f1": 40.4516129032258
+        },
+        "Compose(TextQ,ImageListQ)": {
+            "list_f1": 40.4516129032258
+        },
+        "Compose(TextQ,TableQ)": {
+            "list_f1": 40.4516129032258
+        },
+        "ImageListQ": {
+            "list_f1": 40.4516129032258
+        },
+        "ImageQ": {
+            "list_f1": 40.4516129032258
+        },
+        "Intersect(ImageListQ,TableQ)": {
+            "list_f1": 40.4516129032258
+        },
+        "Intersect(TableQ,TextQ)": {
+            "list_f1": 40.4516129032258
+        },
+        "TableQ": {
+            "list_f1": 40.4516129032258
+        },
+        "TextQ": {
+            "list_f1": 40.4516129032258
+        }
+    },
+    "average_recall_at_k": {
+        "1": 0.6415079365079365,
+        "2": 0.6415079365079365,
+        "4": 0.6415079365079365,
+        "5": 0.6415079365079365,
+        "10": 0.6415079365079365
+    }
+}

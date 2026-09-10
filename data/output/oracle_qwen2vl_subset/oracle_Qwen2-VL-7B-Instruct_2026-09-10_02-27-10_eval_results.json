@@ -1,0 +1,79 @@
+{
+    "overall": {
+        "list_em": 2.0,
+        "list_f1": 2.0
+    },
+    "modalities": {
+        "image": {
+            "list_em": 6.0606060606060606,
+            "list_f1": 6.0606060606060606
+        },
+        "table": {
+            "list_em": 1.8181818181818181,
+            "list_f1": 1.8181818181818181
+        },
+        "text": {
+            "list_em": 0.0,
+            "list_f1": 0.0
+        }
+    },
+    "hop_types": {
+        "Multi-hop": {
+            "list_f1": 0.0
+        },
+        "Single-hop": {
+            "list_f1": 0.0
+        }
+    },
+    "q_types": {
+        "Compare(Compose(TableQ,ImageQ),Compose(TableQ,TextQ))": {
+            "list_f1": 0.0
+        },
+        "Compare(Compose(TableQ,ImageQ),TableQ)": {
+            "list_f1": 0.0
+        },
+        "Compare(TableQ,Compose(TableQ,TextQ))": {
+            "list_f1": 0.0
+        },
+        "Compose(ImageQ,TableQ)": {
+            "list_f1": 0.0
+        },
+        "Compose(TableQ,ImageListQ)": {
+            "list_f1": 0.0
+        },
+        "Compose(TableQ,TextQ)": {
+            "list_f1": 0.0
+        },
+        "Compose(TextQ,ImageListQ)": {
+            "list_f1": 0.0
+        },
+        "Compose(TextQ,TableQ)": {
+            "list_f1": 0.0
+        },
+        "ImageListQ": {
+            "list_f1": 0.0
+        },
+        "ImageQ": {
+            "list_f1": 0.0
+        },
+        "Intersect(ImageListQ,TableQ)": {
+            "list_f1": 0.0
+        },
+        "Intersect(TableQ,TextQ)": {
+            "list_f1": 0.0
+        },
+        "TableQ": {
+            "list_f1": 0.0
+        },
+        "TextQ": {
+            "list_f1": 0.0
+        }
+    },
+    "average_recall_at_k": {
+        "1": 0.7081746031746031,
+        "2": 0.7103968253968254,
+        "4": 0.7292857142857143,
+        "5": 0.7426190476190477,
+        "10": 0.8202380952380952
+    }
+}

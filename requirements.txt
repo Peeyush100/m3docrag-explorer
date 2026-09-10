@@ -1,0 +1,8 @@
+streamlit==1.63.0
+pandas==2.3.3
+numpy==1.26.4
+scipy==1.15.3
+word2number==1.1
+pdf2image==1.17.0
+Pillow==10.4.0
+huggingface_hub==0.36.2
