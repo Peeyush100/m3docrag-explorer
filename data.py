@@ -45,6 +45,8 @@ def _prettify_run_label(folder_name: str, file_name: str) -> str:
     names = {
         "colpali_qwen2vl": "ColPali retrieval + Qwen2-VL answer",
         "colpali_qwen3vl": "ColPali retrieval + Qwen3-VL answer",
+        "colpali_qwen38": "ColPali retrieval + Qwen3.8-27B answer (thinking on, 128 tok — mostly truncated, diagnostic only)",
+        "colpali_qwen38_nothink": "ColPali retrieval + Qwen3.8-27B answer (no-think, matched to Qwen2-VL)",
         "oracle_qwen2vl": "Oracle (gold pages) + Qwen2-VL answer",
         "oracle_qwen3vl": "Oracle (gold pages) + Qwen3-VL answer",
     }
@@ -120,6 +122,13 @@ def _hop_type(example):
     return "Multi-hop" if qtype in MULTI_HOP_QUESTION_TYPES else "Single-hop"
 
 
+def run_has_judge_scores(pred_path: str) -> bool:
+    """True if this run's prediction file was annotated by
+    merge_llm_judge_qwen38.py (has an llm_judge_score on at least one entry)."""
+    preds = load_predictions(pred_path)
+    return any("llm_judge_score" in v for v in list(preds.values())[:5])
+
+
 @st.cache_data(show_spinner="Scoring predictions against gold answers...")
 def build_results_table(gold_key: str, pred_path: str, metric: str = "em", threshold: float = 1.0):
     gold = load_gold(gold_key)
@@ -134,11 +143,18 @@ def build_results_table(gold_key: str, pred_path: str, metric: str = "em", thres
 
         em = list_em(pred_answer, gold_answers) if pred_entry else 0.0
         f1 = list_f1(pred_answer, gold_answers) if pred_entry else 0.0
+        llm_judge_score = pred_entry.get("llm_judge_score") if pred_entry else None
+        llm_judge_raw = pred_entry.get("llm_judge_raw", "") if pred_entry else ""
 
         gold_doc_ids = sorted({ctx["doc_id"] for ctx in example["supporting_context"]})
         gold_doc_parts = {ctx["doc_id"]: ctx["doc_part"] for ctx in example["supporting_context"]}
         retrieved_doc_ids = [r[0] for r in retrieval_results]
         retrieved_hit = any(d in gold_doc_ids for d in retrieved_doc_ids)
+
+        if metric == "judge":
+            correct = llm_judge_score == 1
+        else:
+            correct = (em if metric == "em" else f1) >= threshold
 
         rows.append(
             {
@@ -149,7 +165,9 @@ def build_results_table(gold_key: str, pred_path: str, metric: str = "em", thres
                 "has_prediction": pred_entry is not None,
                 "em": em,
                 "f1": f1,
-                "correct": (em if metric == "em" else f1) >= threshold,
+                "llm_judge_score": llm_judge_score,
+                "llm_judge_raw": llm_judge_raw,
+                "correct": correct,
                 "modality": _answer_modality(example),
                 "hop_type": _hop_type(example),
                 "q_type": example["metadata"]["type"],

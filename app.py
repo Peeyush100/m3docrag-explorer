@@ -14,7 +14,7 @@ from pathlib import Path
 
 import streamlit as st
 
-from data import build_results_table, discover_prediction_runs, pdf_path_for_doc
+from data import build_results_table, discover_prediction_runs, pdf_path_for_doc, run_has_judge_scores
 from pdf_render import get_page_count, render_page
 from theme import (
     GREEN,
@@ -86,10 +86,18 @@ with c2:
 
 with c3:
     ctl_label("Scored as")
+    metric_options = ["Exact match", "Partial credit (F1 ≥ 0.5)"]
+    has_judge = run_has_judge_scores(pred_path)
+    if has_judge:
+        metric_options.append("LLM judge (semantic)")
     metric_choice = st.selectbox(
         "Scored as",
-        ["Exact match", "Partial credit (F1 ≥ 0.5)"],
+        metric_options,
+        index=len(metric_options) - 1 if has_judge else 0,
         label_visibility="collapsed",
+        help="LLM judge asks a model whether the answer means the same thing as "
+        "the reference, tolerant of paraphrase — unlike EM/F1 which score raw "
+        "word overlap and penalize a reasoning model's chain-of-thought text.",
     )
 
 with c4:
@@ -99,8 +107,12 @@ with c4:
     )
 st.markdown("</div>", unsafe_allow_html=True)
 
-metric = "em" if metric_choice.startswith("Exact") else "f1"
-threshold = 1.0 if metric == "em" else 0.5
+if metric_choice.startswith("Exact"):
+    metric, threshold = "em", 1.0
+elif metric_choice.startswith("Partial"):
+    metric, threshold = "f1", 0.5
+else:
+    metric, threshold = "judge", None
 
 df = build_results_table(gold_key, pred_path, metric=metric, threshold=threshold)
 
@@ -136,8 +148,8 @@ st.markdown("<div style='height:18px'></div>", unsafe_allow_html=True)
 # Shared pieces
 # --------------------------------------------------------------------------
 def render_filters(sub_df, key_prefix):
-    """Hop-type + modality filter widgets. Returns the filtered dataframe."""
-    c1, c2, c3 = st.columns([1.2, 1.6, 1.9])
+    """Hop-type + modality + retrieval-hit filter widgets. Returns the filtered dataframe."""
+    c1, c2, c3, c4 = st.columns([1.1, 1.4, 1.3, 1.7])
     with c1:
         ctl_label("Hops")
         hop_choice = st.segmented_control(
@@ -157,6 +169,17 @@ def render_filters(sub_df, key_prefix):
             label_visibility="collapsed",
         )
     with c3:
+        ctl_label("Doc retrieved")
+        retrieval_choice = st.segmented_control(
+            "Doc retrieved",
+            options=["All", "Correct", "Incorrect"],
+            default="All",
+            key=f"{key_prefix}_retrieval",
+            label_visibility="collapsed",
+            help="Whether a gold supporting document was among the retrieved pages, "
+            "independent of whether the final answer was correct.",
+        )
+    with c4:
         ctl_label("Question type (optional)")
         qtypes = sorted(sub_df["q_type"].unique().tolist())
         qtype_choice = st.multiselect(
@@ -173,6 +196,8 @@ def render_filters(sub_df, key_prefix):
         out = out[out["hop_type"] == hop_choice]
     if modality_choice and modality_choice != "All":
         out = out[out["modality"] == modality_choice]
+    if retrieval_choice and retrieval_choice != "All":
+        out = out[out["retrieval_hit"] == (retrieval_choice == "Correct")]
     if qtype_choice:
         out = out[out["q_type"].isin(qtype_choice)]
     return out
@@ -261,15 +286,29 @@ def render_detail(row, gold_key):
     correct = row["correct"]
     status = badge("✓ Correct", GREEN) if correct else badge("✗ Incorrect", RED)
 
+    judge_score = row.get("llm_judge_score")
+    metrics_line = f"EM {row['em']:.2f} &nbsp;·&nbsp; F1 {row['f1']:.2f}"
+    if judge_score is not None:
+        judge_label = "1 (correct)" if judge_score == 1 else "0 (incorrect)"
+        metrics_line += f" &nbsp;·&nbsp; LLM judge {judge_label}"
+
     st.markdown('<div class="nf-detail">', unsafe_allow_html=True)
     st.markdown(f'<div class="nf-question">{row["question"]}</div>', unsafe_allow_html=True)
     st.markdown(
         f"{status} {modality_badge(row['modality'])} "
         f"{badge(row['hop_type'], '#7c3aed')} {badge(row['q_type'], '#444')} "
         f"<div class='small-mono' style='margin-top:6px'>qid {row['qid']} &nbsp;·&nbsp; "
-        f"EM {row['em']:.2f} &nbsp;·&nbsp; F1 {row['f1']:.2f}</div>",
+        f"{metrics_line}</div>",
         unsafe_allow_html=True,
     )
+
+    pred_text = row["pred_answer"] or "(no prediction)"
+    truncated = bool(pred_text) and "</think>" not in pred_text
+    if truncated:
+        st.markdown(
+            badge("⚠ cut off mid-reasoning — never reached a final answer", "#B45309"),
+            unsafe_allow_html=True,
+        )
 
     c1, c2 = st.columns(2)
     with c1:
@@ -279,11 +318,17 @@ def render_detail(row, gold_key):
             unsafe_allow_html=True,
         )
     with c2:
-        st.markdown('<div class="nf-answer-label">Model answered</div>', unsafe_allow_html=True)
+        st.markdown('<div class="nf-answer-label">Model answered (raw, incl. reasoning)</div>', unsafe_allow_html=True)
         pred_class = "pred-correct" if correct else "pred-wrong"
-        pred_text = row["pred_answer"] or "(no prediction)"
         st.markdown(
             f"<div class='answer-box {pred_class}'>{pred_text}</div>", unsafe_allow_html=True
+        )
+
+    if judge_score is not None and row.get("llm_judge_raw"):
+        st.markdown(
+            f"<div class='small-mono' style='margin-top:6px;opacity:0.7'>judge raw output: "
+            f"{row['llm_judge_raw']!r}</div>",
+            unsafe_allow_html=True,
         )
 
     st.markdown('<div class="nf-section">Required vs. retrieved pages</div>', unsafe_allow_html=True)
